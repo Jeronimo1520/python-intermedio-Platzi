@@ -92,7 +92,6 @@ def run():
     for char in word:
         underscores_comp.append(char + " ")
     while intentos<=7:
-        print(word)
         print(HANGMANPICS[index])
         print (''.join(underscores))
         print("letras usadas: ",  ' , '.join(usadas))
