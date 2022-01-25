@@ -78,7 +78,7 @@ def run():
 
 
     word = choice(words)
-    word = unicodedata.normalize("NFKD", word).encode("ascii","ignore").decode("ascii")
+    word = unicodedata.normalize("NFKD", word).encode("ascii","ignore").decode("ascii") #Quita las tildes de las palabras
     
 
     underscores = []
